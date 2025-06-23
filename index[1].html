@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dan and Sons Paper Craft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Dan and Sons Paper Craft</h1>
+    <p>We deal in high-quality paper bags – large and small sizes.</p>
+    <input type="text" id="searchBar" placeholder="Search our products...">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Dan and Sons Paper Craft is a trusted supplier of eco-friendly paper bags. Whether you need small gift bags or large shopping bags, we offer durable, stylish, and affordable options perfect for all uses. Quality and customer satisfaction are our top priorities.</p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="bags.png" alt="Paper Bags" width="100%" />
+          <h3>Small Paper Bags</h3>
+          <p>Ideal for gifts and light packaging.</p>
+          <p><strong>UGX 500 each</strong></p>
+        </div>
+        <div class="product-card">
+          <img src="bags.png" alt="Paper Bags" width="100%" />
+          <h3>Large Paper Bags</h3>
+          <p>Perfect for shopping and bulk items.</p>
+          <p><strong>UGX 1,000 each</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dan and Sons Paper Craft. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
